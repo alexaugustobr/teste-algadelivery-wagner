@@ -6,7 +6,6 @@ import com.algaworks.algadelivery.delivery.tracking.domain.event.DeliveryPlacedE
 import com.algaworks.algadelivery.delivery.tracking.domain.exception.DomainException;
 import jakarta.persistence.*;
 import lombok.*;
-import org.springframework.data.annotation.Id;
 import org.springframework.data.domain.AbstractAggregateRoot;
 
 import java.math.BigDecimal;

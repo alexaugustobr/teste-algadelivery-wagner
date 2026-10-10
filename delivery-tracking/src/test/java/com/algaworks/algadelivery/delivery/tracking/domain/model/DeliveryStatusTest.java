@@ -12,7 +12,7 @@ public class DeliveryStatusTest {
     }
 
     @Test
-    void draft_canChangeToInTransit() {
+    void draft_canNotChangeToInTransit() {
         assertTrue(
                 DeliveryStatus.DRAFT.canNotChangeTo(DeliveryStatus.IN_TRANSIT)
         );
